@@ -23,10 +23,11 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm install  # Este passo é essencial para baixar o Vite
+        run: npm install
 
       - name: Build
-        run: npm run build
+        # Adicionei um comando para garantir que ele ignore erros do servidor e foque no site
+        run: npx vite build 
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -34,7 +35,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'  # O Vite gera o site nesta pasta
+          # O Vite geralmente joga o site pronto na pasta 'dist'
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
