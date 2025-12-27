@@ -210,12 +210,12 @@ export default function Home() {
 
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="/images/classroom.jpg"
+                src="images/classroom.jpg"
                 alt="Sala de aula moderna"
                 className="rounded-lg shadow-lg w-full h-64 object-cover"
               />
               <img
-                src="/images/library.jpg"
+                src="images/library.jpg"
                 alt="Biblioteca"
                 className="rounded-lg shadow-lg w-full h-64 object-cover mt-8"
               />
