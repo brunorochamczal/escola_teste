@@ -10,7 +10,7 @@ const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(
 
 export default defineConfig({
   plugins,
-  // 1. Adicionado base: './' para que o site funcione em subpastas do GitHub
+  // ESTA É A LINHA MAIS IMPORTANTE:
   base: '/escola_teste/', 
   resolve: {
     alias: {
@@ -23,24 +23,8 @@ export default defineConfig({
   root: path.resolve(import.meta.dirname, "client"),
   publicDir: path.resolve(import.meta.dirname, "client", "public"),
   build: {
-    // 2. Ajustado para 'dist' para alinhar com o seu arquivo deploy.yml
     outDir: path.resolve(import.meta.dirname, "dist"), 
     emptyOutDir: true,
   },
-  server: {
-    host: true,
-    allowedHosts: [
-      ".manuspre.computer",
-      ".manus.computer",
-      ".manus-asia.computer",
-      ".manuscomputer.ai",
-      ".manusvm.computer",
-      "localhost",
-      "127.0.0.1",
-    ],
-    fs: {
-      strict: true,
-      deny: ["**/.*"],
-    },
-  },
+  // ... resto do seu código (server, etc)
 });
