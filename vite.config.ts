@@ -11,7 +11,7 @@ const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(
 export default defineConfig({
   plugins,
   // 1. Adicionado base: './' para que o site funcione em subpastas do GitHub
-  base: './escola_teste', 
+  base: '/escola_teste.github.io/', 
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
