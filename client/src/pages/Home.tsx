@@ -131,7 +131,7 @@ export default function Home() {
               Por que escolher a Escola Excelência?
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Oferecemos uma educação completa que desenvolve não apenas o conhecimento acadêmico, 
+              Oferecemos uma educação completa que desenvolve não apenas o conhecimento acadêmico 
               mas também as habilidades socioemocionais essenciais para o futuro.
             </p>
           </div>
