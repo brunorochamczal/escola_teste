@@ -50,15 +50,15 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <Phone className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span>(11) 3456-7890</span>
+                <span>(00) 0000-00000</span>
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span>contato@escolaexcelencia.com.br</span>
+                
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span>Rua da Educação, 123<br />São Paulo - SP</span>
+                <span>Rua da Educação, 000<br />Cidade - ESTADO</span>
               </li>
             </ul>
           </div>
