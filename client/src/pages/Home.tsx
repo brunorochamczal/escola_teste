@@ -254,7 +254,7 @@ export default function Home() {
           </h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
             Agende uma visita e conheça pessoalmente nossa estrutura, metodologia e equipe. 
-            Será um prazer receber você e sua família!
+            Aguardamos você e sua família!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contato">
