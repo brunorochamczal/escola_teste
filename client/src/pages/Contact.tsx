@@ -185,7 +185,7 @@ export default function Contact() {
                     <div>
                       <p className="font-medium">Telefone</p>
                       <p className="text-sm text-muted-foreground">
-                        (11) 3456-7890
+                        (00) 0000-0000
                       </p>
                     </div>
                   </div>
@@ -209,9 +209,9 @@ export default function Contact() {
                     <div>
                       <p className="font-medium">Endereço</p>
                       <p className="text-sm text-muted-foreground">
-                        Rua da Educação, 123<br />
-                        Centro - São Paulo/SP<br />
-                        CEP: 01234-567
+                        Rua Endereço certo, 123<br />
+                        Bairro - Cidade/ES<br />
+                        CEP: 12345-678
                       </p>
                     </div>
                   </div>
@@ -249,7 +249,7 @@ export default function Contact() {
                     Venha conhecer nossa estrutura, metodologia e equipe pessoalmente.
                   </p>
                   <p className="text-sm font-medium">
-                    Ligue agora: <span className="text-primary">(11) 3456-7890</span>
+                    Ligue agora: <span className="text-primary">(00) 0000-0000</span>
                   </p>
                 </CardContent>
               </Card>
@@ -269,7 +269,7 @@ export default function Contact() {
               <div className="text-center space-y-2">
                 <MapPin className="h-12 w-12 text-muted-foreground mx-auto" />
                 <p className="text-muted-foreground">
-                  Rua da Educação, 123 - Centro - São Paulo/SP
+                  Rua Endereço certo, 123 - Centro - Cidade/ES
                 </p>
               </div>
             </div>
