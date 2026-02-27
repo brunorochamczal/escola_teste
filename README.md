@@ -127,7 +127,7 @@ O site da **Escola Excelência** é uma plataforma institucional moderna desenvo
 
 ### 🖥️ Preview Completo do Site
 
-<img src="./screenshot-escola-excelencia.png" width="700" alt="Escola Excelência - Página Inicial"/>
+https://brunorochamczal.github.io/escola_teste/
 
 ### 🗺️ Estrutura Visual das Seções
 
