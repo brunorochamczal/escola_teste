@@ -12,7 +12,7 @@
 
 <br/>
 
-<img src="./screenshot-escola-excelencia.png" width="780" alt="Screenshot do site Escola Excelência" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.2);"/>
+
 
 <br/><br/>
 
@@ -190,7 +190,7 @@ npx http-server -p 3000
 # Opção 3: VS Code com extensão Live Server
 # Instale "Live Server" e clique em "Go Live"
 
-# Acesse em: http://localhost:3000
+# Acesse em: http://localhost:3000](https://brunorochamczal.github.io/escola_teste
 ```
 
 </details>
@@ -484,13 +484,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) par
 
 ---
 
-**📅 Agende uma visita e conheça pessoalmente nossa estrutura, metodologia e equipe.**
-**Será um prazer receber você e sua família!**
 
-[![Agendar Visita](https://img.shields.io/badge/📅_Agendar_Visita-f97316?style=for-the-badge)](link-agendamento)
-[![Ver Próximos Eventos](https://img.shields.io/badge/🗓️_Ver_Eventos-1a56db?style=for-the-badge)](link-eventos)
-
-<br/>
 
 <img src="./screenshot-escola-excelencia.png" width="600" alt="Escola Excelência - Excelência em Ensino"/>
 
